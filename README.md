@@ -3,8 +3,7 @@ The assignment was to create a basic LB that will show a screen saying "Hello Ha
 I decided to use a regular LB for that purpose. If the task would require more complex logic I would have used different AWS services (api_gateway or more complex rules structure for the ALB).
 
 
-`#0969DA`
-** Notes: **
+<span style="color: blue;">** Notes: **</span>
 + In real life scenario I would have created a better url using Route53
 + The TF code expects a secret and access key of a user that is allowed to create those resources.
 Better way in my opinion is to do so with use of a pre-existing role
