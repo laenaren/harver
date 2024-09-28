@@ -1,13 +1,14 @@
 Hey :)
-The assigment was to create a basic LB that will show out a screen saying "Hello Harver" when accesing it in the beowser.
-I decided to use a regular LB for that porpuse. Is the task would requere more complex logic I would have used dofferent AWS services (api_gateway or more complec rules for the ALB).
+The assignment was to create a basic LB that will show a screen saying "Hello Harver" when accessing it in the browser.
+I decided to use a regular LB for that purpose. If the task would require more complex logic I would have used different AWS services (api_gateway or more complex rules structure for the ALB).
 
-The LB address is set  as an output of the terraform
 
--- notes: ---
--In real life scenrio I would have create a better url. 
--The TF code expects a secret and access key of a user that allowed to create those resources.
-better way to do so is to use a pre-exisiting role
--For this excersize all security groups allow 0.0.0.0 from the interent. I waould  have limitted it to specific ports and/or access from the vpn only
+`#0969DA`
+** Notes: **
++ In real life scenario I would have created a better url using Route53
++ The TF code expects a secret and access key of a user that is allowed to create those resources.
+Better way in my opinion is to do so with use of a pre-existing role
++ For this exercise all security groups allow 0.0.0.0 from the internet. I would  have limit for it to specific ports and\or access from the vpn only for better security. 
++ I think that this app would need monitoring and some sort of user and network/security limitations.
 
-I think that this app would need monitoring and some sort of user and network/securisty limmitations.
+## The LB address is set as an output parameter of the terraform ##
